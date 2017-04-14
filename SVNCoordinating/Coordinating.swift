@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol Coordinating: class {
+public protocol Coordinating: class {
     associatedtype RootViewController: UIViewController
     associatedtype ViewController: UIViewController
     
